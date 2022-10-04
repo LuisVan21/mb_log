@@ -1,3 +1,4 @@
+
 body{
   padding: 0%;
   margin: 0%;
@@ -15,4 +16,31 @@ body{
 }
 .line-1, .line-2{
 li
+}
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li{text-decoration: none;
+  float: left;
+}
+#menu a{
+  color: rgb(15, 15, 14);
+  text-decoration: none;
+  display: block;
+  padding:12px 26px ;
+  font-family:'Courier New';
+  font-size: 20px;
+
+}
+#menu{
+  background: rgb(190, 205, 236);
+  width:1000px ;
+  height: 52px ;
+}
+.barra{
+  color: rgb(117, 10, 10);
+  padding: 15px;
+  
 }
