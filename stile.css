@@ -26,7 +26,7 @@ li
   float: left;
 }
 #menu a{
-  color: rgb(15, 15, 14);
+  color: rgb(245, 245, 242);
   text-decoration: none;
   display: block;
   padding:12px 26px ;
@@ -35,12 +35,22 @@ li
 
 }
 #menu{
-  background: rgb(190, 205, 236);
+  background: rgb(143, 176, 176);
   width:1000px ;
   height: 52px ;
 }
 .barra{
   color: rgb(117, 10, 10);
   padding: 15px;
-  
+}
+#menu a:hover{
+  color: brown;
+  background:rgb(139, 143, 137 0.2);
+  animation: 1s ms 1;
+}
+@keyframes ms{
+  0%{
+    opacity:0 ;
+    transform: scale(1.6);
+  }
 }
